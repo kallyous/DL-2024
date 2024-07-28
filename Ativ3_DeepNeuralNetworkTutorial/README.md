@@ -47,5 +47,4 @@ Isso vai executar a rede neural de múltiplas variáveis, escrevendo detalhes da
 
 ## Referências
 
-Tutorial da atividade:  
-[Tensor Flow: Regressão Básica](https://www.tensorflow.org/tutorials/keras/regression)
+Tutorial da atividade - [Tensor Flow: Regressão Básica](https://www.tensorflow.org/tutorials/keras/regression)
