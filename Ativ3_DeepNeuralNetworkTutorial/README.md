@@ -43,3 +43,9 @@ pipenv shell
 python Ativ34DeepNeuroNetMultiVar.py
 ```
 Isso vai executar a rede neural de múltiplas variáveis, escrevendo detalhes da execução no terminal e plotando as imagens para visualização.
+
+
+## Referências
+
+Tutorial da atividade:  
+[Tensor Flow: Regressão Básica](https://www.tensorflow.org/tutorials/keras/regression)
