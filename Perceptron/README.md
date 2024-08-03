@@ -34,3 +34,5 @@ python main.py
 ## Info Adicional
 
 Perceptron desenvolvido em Python apenas com Numpy.
+
+[sketch.py](sketch.py) - Rascunho que implementa um perceptron funcional com numpy.
