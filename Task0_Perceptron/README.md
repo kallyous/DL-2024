@@ -25,10 +25,10 @@ pipenv install
 
 ## Execução
 
-Ainda na raiz do prjeto, rodar o script `main.py` com:
+Ainda na raiz do prjeto, rodar o script `sketch.py` com:
 ```bash
 pipenv shell
-python main.py
+python sketch.py
 ```
 
 ## Info Adicional
