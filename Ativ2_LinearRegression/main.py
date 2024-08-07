@@ -8,6 +8,8 @@ UFAL 2024
 
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import StandardScaler          # Normalizador
 from sklearn.model_selection import ShuffleSplit          # Rodadas de validação.
 from sklearn.linear_model import LinearRegression         # Algoritmo de R.L.
 from sklearn.metrics import mean_squared_error, r2_score  # Métricas
@@ -15,6 +17,33 @@ from sklearn.metrics import mean_squared_error, r2_score  # Métricas
 
 # Base de dados.
 df = pd.read_csv('Housing.csv')
+
+# Estilo escuro pro matplotlib
+plt.style.use('dark_background')
+
+# Primeiro se cria a figura nova, em branco, redimensionada: plt.figure()
+plt.figure(figsize=(20, 5))             # (width, height)
+plt.boxplot(df['area'], vert=False)     # Deixa boxplot
+plt.title('Áreas em metros quadrados')  # Título da figura
+plt.xlabel('m²')                        # Legenda do eixo horizontal
+
+# Scatter plot para ver o crescimento do valor em função da área.
+plt.figure()
+plt.scatter(df['area'], df['price'])
+plt.title('Relação da área com o preço')
+plt.xlabel('m²')
+plt.ylabel('U$')
+
+plt.show()
+
+# Coluna(s) a normalizar
+cols_to_norm = ['area']
+
+# Inicializar o StandardScaler
+scaler = StandardScaler()
+
+# Normaliza colunas.
+df[cols_to_norm] = scaler.fit_transform(df[cols_to_norm])
 
 # Define quem são as variáveis dependentes e a variável dependente (alvo).
 X = df[['area']]  # Nomes das colunas das variáveis independentes.
