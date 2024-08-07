@@ -19,3 +19,4 @@ Feature Engineering
 
 Tutoriais / notebooks que o prof passou no classroom. Fazer todos, tem teoria e prática lá.
 
+![Drawing 2024-08-07 16.09.55.excalidraw](Drawing%202024-08-07%2016.09.55.excalidraw.md)
