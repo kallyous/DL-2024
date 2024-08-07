@@ -165,5 +165,6 @@ cython_debug/
 /PDFs
 /zzz_Old
 /.idea
+/.obsidian
 
 *.kate-swap
