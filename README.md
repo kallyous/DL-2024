@@ -1,44 +1,71 @@
 # DL-2024
 
 
-### Atividades da disciplina de Redes Neurais.
+Atividades da disciplina de Redes Neurais.
 
 Lucas Carvalho Flores  
 Ufal 2024
 
 
-## Atividades (Classroom)
+## Atividades
 
-Aqui estão as atividades como eu entendi no classroom.
+[Ativ 1 - Perceptron (Local)](Task0_Perceptron)
 
-[Ativ 1 - Perceptron](Task0_Perceptron)
+[Ativ 2 - Regressão Linear (Local)](Ativ2_LinearRegression/)
 
-[Ativ 2 - Regressão Linear](Ativ2_LinearRegression/)
-
-[Ativ 3 - Regressão Linear com Rede Neural Profunda](Ativ3_DeepNeuralNetworkTutorial/)
+[Ativ 3 - Regressão Linear com Rede Neural Profunda (Local)](Ativ3_DeepNeuralNetworkTutorial/)
 
 
-## Requerimentos
+## Requerimentos & Instalação
+
+#### TL; DR
+
+```shell
+pip install --user pipenv    # Instala o Pipenv
+pipenv install               # Instala dependências
+pipenv shell                 # Ativa ambiente virtual
+cd <Pasta-da-Atividade>      # Entra no diretório da atividade
+python <script-desejado>.py  # Executa script desejado
+```
+
+#### Detalhes sobre os requerimentos e instalação
 
 Atividades feitas localmente (e não no Colab) usam o [Pipenv](https://pipenv.pypa.io/en/latest/) para gerenciamento de ambiente virtual e dependências.
 
 * Python 3
 * [Pipenv](https://pipenv.pypa.io/en/latest/)
 
-## Instalação
-
-*1.* Instalar o Pipenv usando Pip:
+**1.** Instalar o [Pipenv](https://pipenv.pypa.io/en/latest/) usando Pip:
 
 ```shell
-pip install --user pipenv
+pip install --user pipenv    # Instala o Pipenv
 ```
 
-*2.* No diretório raiz do projeto, executar:
+**2.** No diretório raiz do projeto, executar:
 ```bash
-pipenv install
+pipenv install               # Instala dependências
+pipenv shell                 # Atiba ambiente virtual
 ```
 
-Agora todas as dependências estão instaladas no ambiente virtual da raiz do projeto.
+**3.** Agora todas as dependências estão instaladas no ambiente virtual da raiz do projeto. Entre na pasta da atividade desejada e execute o script python normalmente.
+
+```
+cd <Pasta-da-Atividade>      # Entra no diretório da atividade
+python <script-desejado>.py  # Executa script desejado
+```
+
+Exemplo:
+
+```
+pip install --user pipenv
+
+pipenv install
+pipenv shell
+
+cd Ativ3_DeepNeuralNetworkTutorial
+python main.py
+```
+
 
 
 ### Tasks do repo da disciplina
