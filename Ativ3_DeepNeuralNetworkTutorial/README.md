@@ -35,7 +35,9 @@ Esta atividade está dividida em quatro scripts:
 3. [Ativ33DeepNeuroNetSingVar.py](Ativ33DeepNeuroNetSingVar.py) implementa a terceira parte, uma rede neural com duas camadas ocultas e uma variável.
 4. [Ativ34DeepNeuroNetMultiVar.py](Ativ34DeepNeuroNetMultiVar.py) implementa a quarta parte, uma rede neural com duas camadas ocultas e múltiplas variáveis.
 
-O script [support.py](support.py) implementa algumas funções utilitárias, enquanto [main.py](main.py) executa os outros quatro scripts e exibe suas perdas para comparação.
+O script [support.py](support.py) implementa algumas funções utilitárias, enquanto [compare.py](compare.py) executa os outros quatro scripts e exibe suas perdas para comparação.
+
+O script [main.py](main.py) compila e treina uma rede neural baseada na de [Ativ34DeepNeuroNetMultiVar.py](Ativ34DeepNeuroNetMultiVar.py) para avaliar e prever os preços das casas em [Housing.csv](Housing.csv).
 
 Para ver os detalhes da execução de algum dos scripts, como plotagens ou informação adicional no terminal, executar o script isoladamente. ie:
 ```bash
